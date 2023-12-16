@@ -1,0 +1,132 @@
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  left: 300px;
+  margin-left: 800px;
+  width: 30%;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #1b504c;
+  padding: 10px 0px;
+  border: 1px solid #1b504c;
+}
+
+h1:hover {
+  border: 1px solid #1b504c;
+  color: #1b504c;
+  background-color: white;
+}
+/* g 1b504c  o #ff3b3b  gray #b3b3b3;*/
+.product {
+  display: flex;
+}
+.p12,
+.p34 {
+  width: 50%;
+}
+.product1,
+.product2,
+.product3,
+.product4 {
+  width: 25%;
+  border: 2px solid white;
+}
+
+.product1 {
+  display: flex;
+  flex-direction: column;
+}
+.product1 img {
+  border: 2px solid white;
+}
+
+.product2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.product2 img {
+  border: 2px solid white;
+}
+
+.product3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.product3 img {
+  border: 2px solid white;
+}
+
+.product4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.product4 img {
+  border: 2px solid white;
+}
+
+img {
+  transition: transform 0.2s ease-in; /* Add smooth transition */
+}
+
+img:hover {
+  filter: brightness(0.6);
+  cursor: grabbing;
+  transition: all .7s;
+  transform: scale(1.5); /* Increase the scale on hover (zoom effect) */
+}
+
+.p12 {
+  display: flex;
+  width: 100%;
+}
+.p34 {
+  border: 10px soid blue;
+  display: flex;
+  width: 100%;
+  margin-left: -50%;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    width: 90%;
+    color: white;
+    text-align: center;
+  }
+
+  .product1,
+  .product2 {
+    width: 50%;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p12 {
+    display: flex;
+
+    width: 100%;
+  }
+
+  .p34 {
+    display: flex;
+
+    width: 100%;
+  }
+
+  .product3 {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .product4 {
+    width: 50%;
+  }
+}

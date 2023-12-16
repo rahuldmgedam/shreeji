@@ -1,0 +1,225 @@
+.split-container {
+    display: flex;
+    overflow: hidden;
+    height: 100vh; /* Set the height of the container */
+}
+
+.left-div, .right-div {
+    width: 50%; /* Initial width of each div */
+    transition: width 1s ease; /* Add transition for smooth effect */
+}
+
+.rotate-container {
+    height: 1000px; /* Set the height of the container */
+    overflow: hidden;
+    position: relative;
+}
+
+.rotate-div {
+    width: 100%;
+    height: 400px; /* Set the height of each div */
+    background-color: #f0f0f0; /* Set background color or other styles */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease; /* Add transition for smooth effect */
+}
+
+
+
+#demotext {
+    display: flex;
+    justify-content: center;
+
+    height: 330px;
+    color: #f7f7f7;
+    text-shadow: 4px 4px 8px rgba(166, 166, 166, 1);
+    }
+
+    #demotext h1{
+        font-size: 230px;
+    }
+
+    p span{
+        color: #ff3b3b;
+
+    }
+    .based{
+        margin-top: -70px;
+       text-align: center;  
+        color: #b3b3b3;
+        font-weight: 400;
+        font-size: 50px;
+
+    }
+  
+
+    .rotate-p{
+     
+        margin-top: 100px;
+        height: 100vh;
+        margin-bottom: 200px;
+    }
+
+    .rotate{
+      
+        height: 200px;
+        position: relative;
+       bottom: 40%;
+       right: 10%;
+    }
+    
+
+  .img1{
+    position: absolute;
+    z-index: 0;
+   left: 50%;
+
+  }
+  .img2{
+    position:relative;
+;
+    z-index: -1;
+    left: 50%;
+  
+  }
+
+
+  .rotate img{
+    height: 40vh;
+  }
+
+
+
+  .recent-work-item-holder {
+    position: relative;
+    /* Ensure the parent div has a defined position */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; /* Adjust this value to position the text vertically */
+    left: 50%; /* Adjust this value to position the text horizontally */
+    transform: translate(-50%, -50%);
+    background-color:transparent; /* Adjust opacity and color as needed */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 80px;
+    color: #f0f0f0;
+    font-weight: 600;
+    letter-spacing: 1.8;
+    /* Additional styling */
+}
+
+/* 
+  //responsive */
+
+
+
+  @media screen and (max-width: 480px) {
+    
+    
+    .welcome-text {
+        position: relative;
+        margin-bottom: 20px; /* Add some space between text and images */
+    }
+
+
+
+    #demotext h1{
+        width: 50vw;
+        font-size:60px;
+        text-align: center;
+        margin-right: 150px;
+    }
+    
+    .based{
+      position: absolute;
+        text-align: center;  
+         color: #b3b3b3;
+         font-weight: 400;
+         font-size: 25px;
+         top: 180px;
+         text-align: center;
+    }
+ 
+ 
+    .rotate{
+      
+        height: 200px;
+        position: relative;
+       bottom: 40%;
+       right: 10%;
+    }
+    
+
+  .img1{
+    position: absolute;
+    top: -120px;
+    z-index: 0;
+   left:35%;
+   
+  }
+  .img2{
+    position:relative;
+    top: -120px;
+    z-index: -1;
+    left: 35%;
+  
+  }
+
+
+  .rotate img{
+    height: 40vh;
+  }
+ 
+  #reel-p{
+margin-top: 200px;
+  }
+
+  #reel1,#reel2,#reel3{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .overlay-text {
+    position: absolute;
+    top: 10%; /* Adjust this value to position the text vertically */
+    left: 50%; /* Adjust this value to position the text horizontally */
+    transform: translate(-50%, -50%);
+    background-color:transparent; /* Adjust opacity and color as needed */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #f0f0f0;
+    font-weight: 600;
+    letter-spacing: 1.8;
+    /* Additional styling */
+}
+
+#reel-p img{
+  height: 200px;
+   height: 10px;
+   border: 1px solid transparent;
+}
+#reel-main{
+  margin-top: 100px;
+  /* border: 5px solid red; */
+
+}
+
+
+
+
+/* For screens 480px and above */
+
+
+
+
+
+
+        /* Adjust font sizes or other styles as needed for smaller screens */
+}
